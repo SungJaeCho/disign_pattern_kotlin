@@ -1,0 +1,9 @@
+package adapter
+
+class Rat: Animal() {
+    private val name = "쥐"
+
+    override fun getName(): String {
+        return name
+    }
+}
